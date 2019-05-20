@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.demo.dao.UserDao">
+
+    <!--<insert id="insertA" parameterType="com.example.demo.entity.TestAuto" useGeneratedKeys="true" keyProperty="id">-->
+        <!--insert into-->
+            <!--testauto (name,age)-->
+        <!--values-->
+            <!--(#{name},#{age})-->
+    <!--</insert>-->
+
+    <!--<insert id="insertP" parameterType="com.example.demo.entity.TestParent" useGeneratedKeys="true" keyProperty="id">-->
+        <!--insert into-->
+            <!--testparent (parentId,age)-->
+        <!--values-->
+            <!--(#{parentId},#{age})-->
+    <!--</insert>-->
+    <!--&lt;!&ndash; 测试使用user插入数据的时候返回主键id值 &ndash;&gt;-->
+    <!--<insert id="insertUser11" parameterType="com.example.demo.entity.User" useGeneratedKeys="true" keyProperty="id">-->
+        <!--insert into-->
+        <!--user (username,age,sex)-->
+        <!--values (#{username},#{age},#{sex})-->
+
+    <!--</insert>-->
+
+
+
+</mapper>
