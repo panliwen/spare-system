@@ -50,4 +50,21 @@ public interface BaseService<T> {
     int updateByExampleSelective(T t, Object o);
 
     boolean existsWithPrimaryKey(Object o);
+    /**
+     * 分页查询
+     * @param page 页号
+     * @param pageSize 页大小
+     * @return 分页对象（总记录数，列表）
+     */
+    PageResult selectPage(Integer page, Integer pageSize);
+
+    /**
+     * 条件分页查询
+     * @param page 页号
+     * @param pageSize 页大小
+     * @param t 条件
+     * @return 分页对象（总记录数，列表）
+     */
+    PageResult selectPageObject(Integer page, Integer pageSize, T t);
+
 }

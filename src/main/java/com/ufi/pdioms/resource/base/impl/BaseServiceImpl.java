@@ -1,6 +1,9 @@
 package com.ufi.pdioms.resource.base.impl;
 
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import com.ufi.pdioms.resource.base.BaseService;
+import com.ufi.pdioms.resource.base.PageResult;
 import org.apache.ibatis.session.RowBounds;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -129,4 +132,27 @@ public abstract class BaseServiceImpl<T, M extends Mapper<T>> implements BaseSer
     public boolean existsWithPrimaryKey(Object o) {
         return mapper.existsWithPrimaryKey(o);
     }
+
+    @Override
+    public PageResult selectPage(Integer page, Integer pageSize) {
+        //设置分页
+        PageHelper.startPage(page, pageSize);
+        //查询
+        List<T> list = mapper.selectAll();
+        //创建分页信息对象
+        PageInfo<T> pageInfo = new PageInfo<>(list);
+        return new PageResult(pageInfo.getTotal(), pageInfo.getList());
+    }
+
+    @Override
+    public PageResult selectPageObject(Integer page, Integer pageSize, T t) {
+        //设置分页
+        PageHelper.startPage(page, pageSize);
+        //查询
+        List<T> list = mapper.select(t);
+        //创建分页信息对象
+        PageInfo<T> pageInfo = new PageInfo<>(list);
+        return new PageResult(pageInfo.getTotal(), pageInfo.getList());
+    }
+
 }
