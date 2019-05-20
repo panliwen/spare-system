@@ -25,14 +25,12 @@ public class TestRest {
 
     /**测试获取所有User用户信息==进行分页查询**/
     @GetMapping("/getUserAllPage")
-    public GeneralResult getUserAllPage(@RequestParam(value = "pageNum",required = false,defaultValue = "1")Integer pageNo,
+    public GeneralResult getUserAllPage(@RequestParam(value = "pageNo",required = false,defaultValue = "1")Integer pageNo,
                                         @RequestParam(value = "pageSize",required = false,defaultValue = "20")Integer pageSize)
     {
         GeneralResult result =  new GeneralResult();
         result.setResultData(userService.getUserAllPage(pageNo,pageSize));
         return result;
     }
-
-
 
 }

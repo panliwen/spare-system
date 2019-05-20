@@ -29,10 +29,12 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public PageResult getUserAllPage(Integer pageNo, Integer pageSize) {
+        //分页设置
         PageHelper.startPage(pageNo,pageSize);
+        //查询所有数据信息
         List<User> list = userDao.selectAll();
         PageInfo<User> pageInfo = new PageInfo<>(list);
-        PageResult result = new PageResult(pageInfo.getTotal(), pageInfo.getList());
+        PageResult result = new PageResult(pageInfo.getTotal(), pageInfo.getList(),pageInfo.getPages(),pageInfo.getSize(),2);
         return result;
    }
 }
