@@ -34,7 +34,7 @@ public class UserServiceImpl implements UserService {
         //查询所有数据信息
         List<User> list = userDao.selectAll();
         PageInfo<User> pageInfo = new PageInfo<>(list);
-        PageResult result = new PageResult(pageInfo.getTotal(), pageInfo.getList(),pageInfo.getPages(),pageInfo.getSize(),2);
+        PageResult result = new PageResult(pageInfo.getTotal(), pageInfo.getList(),pageInfo.getPages(),pageInfo.getSize(),pageInfo.getPageNum());
         return result;
    }
 }

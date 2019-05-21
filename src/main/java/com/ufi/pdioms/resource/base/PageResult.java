@@ -43,8 +43,8 @@ public class PageResult implements Serializable {
         this.totalPage = totalPage;
     }
 
-    public PageResult(long total, List<?> rows, long totalPage,long pageSize,long current) {
-        this.data = rows;
+    public PageResult(long total, List<?> data, long totalPage,long pageSize,long current) {
+        this.data = data;
         this.total = total;
         this.totalPage=totalPage;
         this.pageSize=pageSize;
