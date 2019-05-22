@@ -47,6 +47,7 @@ public class ManufacturerRest
                                                 @PathVariable("manufacturerId") long manufacturerId
                                                 )
     {
+        System.out.println("测试");
        return null;
     }
 
