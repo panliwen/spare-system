@@ -1,0 +1,456 @@
+2019-05-20 15:03:42.284 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - Starting ResourceApplication on DESKTOP-G6Q6BPH with PID 18764 (G:\WorkTest\pdioms_resource_rest\target\classes started by 18933 in G:\WorkTest\pdioms_resource_rest)
+2019-05-20 15:03:42.285 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - No active profile set, falling back to default profiles: default
+2019-05-20 15:03:43.235 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9900 (http)
+2019-05-20 15:03:43.246 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9900"]
+2019-05-20 15:03:43.255 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-20 15:03:43.256 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-20 15:03:43.260 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-05-20 15:03:43.260 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-05-20 15:03:43.261 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-05-20 15:03:43.263 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-05-20 15:03:43.357 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-20 15:03:43.358 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 873 ms
+2019-05-20 15:03:43.505 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-20 15:03:43.804 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-05-20 15:03:43.805 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-05-20 15:03:43.805 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-05-20 15:03:43.806 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-05-20 15:03:43.967 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9900"]
+2019-05-20 15:03:43.983 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9900 (http) with context path ''
+2019-05-20 15:03:43.985 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - Started ResourceApplication in 2.047 seconds (JVM running for 2.811)
+2019-05-20 15:04:41.969 [http-nio-9900-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-20 15:04:41.969 [http-nio-9900-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-05-20 15:04:41.974 [http-nio-9900-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2019-05-20 15:13:25.262 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - Starting ResourceApplication on DESKTOP-G6Q6BPH with PID 25560 (G:\WorkTest\pdioms_resource_rest\target\classes started by 18933 in G:\WorkTest\pdioms_resource_rest)
+2019-05-20 15:13:25.264 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - No active profile set, falling back to default profiles: default
+2019-05-20 15:13:26.731 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9900 (http)
+2019-05-20 15:13:26.743 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9900"]
+2019-05-20 15:13:26.752 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-20 15:13:26.753 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-20 15:13:26.757 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-05-20 15:13:26.757 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-05-20 15:13:26.758 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-05-20 15:13:26.782 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-05-20 15:13:26.899 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-20 15:13:26.900 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1209 ms
+2019-05-20 15:13:27.070 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-20 15:13:27.453 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-05-20 15:13:27.454 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-05-20 15:13:27.454 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-05-20 15:13:27.455 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-05-20 15:13:27.726 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9900"]
+2019-05-20 15:13:27.743 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9900 (http) with context path ''
+2019-05-20 15:13:27.746 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - Started ResourceApplication in 2.902 seconds (JVM running for 3.8)
+2019-05-20 15:16:07.195 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - Starting ResourceApplication on DESKTOP-G6Q6BPH with PID 868 (G:\WorkTest\pdioms_resource_rest\target\classes started by 18933 in G:\WorkTest\pdioms_resource_rest)
+2019-05-20 15:16:07.197 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - No active profile set, falling back to default profiles: default
+2019-05-20 15:16:08.182 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9900 (http)
+2019-05-20 15:16:08.193 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9900"]
+2019-05-20 15:16:08.202 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-20 15:16:08.202 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-20 15:16:08.207 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-05-20 15:16:08.207 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-05-20 15:16:08.207 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-05-20 15:16:08.210 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-05-20 15:16:08.304 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-20 15:16:08.304 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 923 ms
+2019-05-20 15:16:08.457 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-20 15:16:08.761 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-05-20 15:16:08.762 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-05-20 15:16:08.762 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-05-20 15:16:08.764 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-05-20 15:16:08.924 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9900"]
+2019-05-20 15:16:08.941 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9900 (http) with context path ''
+2019-05-20 15:16:08.943 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - Started ResourceApplication in 2.109 seconds (JVM running for 2.859)
+2019-05-20 15:34:27.022 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - Starting ResourceApplication on DESKTOP-G6Q6BPH with PID 24316 (G:\WorkTest\pdioms_resource_rest\target\classes started by 18933 in G:\WorkTest\pdioms_resource_rest)
+2019-05-20 15:34:27.024 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - No active profile set, falling back to default profiles: default
+2019-05-20 15:34:28.049 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9900 (http)
+2019-05-20 15:34:28.060 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9900"]
+2019-05-20 15:34:28.068 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-20 15:34:28.068 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-20 15:34:28.073 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-05-20 15:34:28.073 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-05-20 15:34:28.073 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-05-20 15:34:28.075 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-05-20 15:34:28.168 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-20 15:34:28.168 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 930 ms
+2019-05-20 15:34:28.606 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-20 15:34:28.830 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-05-20 15:34:28.830 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-05-20 15:34:28.830 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-05-20 15:34:28.831 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-05-20 15:34:28.927 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9900"]
+2019-05-20 15:34:28.943 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9900 (http) with context path ''
+2019-05-20 15:34:28.945 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - Started ResourceApplication in 2.32 seconds (JVM running for 3.081)
+2019-05-20 15:34:45.517 [http-nio-9900-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-20 15:34:45.517 [http-nio-9900-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-05-20 15:34:45.559 [http-nio-9900-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 42 ms
+2019-05-20 15:36:31.647 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - Starting ResourceApplication on DESKTOP-G6Q6BPH with PID 4596 (G:\WorkTest\pdioms_resource_rest\target\classes started by 18933 in G:\WorkTest\pdioms_resource_rest)
+2019-05-20 15:36:31.651 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - No active profile set, falling back to default profiles: default
+2019-05-20 15:36:32.766 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9900 (http)
+2019-05-20 15:36:32.777 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9900"]
+2019-05-20 15:36:32.786 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-20 15:36:32.786 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-20 15:36:32.791 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-05-20 15:36:32.791 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-05-20 15:36:32.791 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-05-20 15:36:32.794 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-05-20 15:36:32.890 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-20 15:36:32.890 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 990 ms
+2019-05-20 15:36:33.272 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-20 15:36:33.512 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-05-20 15:36:33.513 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-05-20 15:36:33.513 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-05-20 15:36:33.513 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-05-20 15:36:33.622 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9900"]
+2019-05-20 15:36:33.639 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9900 (http) with context path ''
+2019-05-20 15:36:33.641 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - Started ResourceApplication in 2.344 seconds (JVM running for 3.096)
+2019-05-20 15:36:36.186 [http-nio-9900-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-20 15:36:36.186 [http-nio-9900-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-05-20 15:36:36.190 [http-nio-9900-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2019-05-20 15:36:36.304 [http-nio-9900-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-05-20 15:36:37.252 [http-nio-9900-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-05-20 15:36:50.074 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - Starting ResourceApplication on DESKTOP-G6Q6BPH with PID 10620 (G:\WorkTest\pdioms_resource_rest\target\classes started by 18933 in G:\WorkTest\pdioms_resource_rest)
+2019-05-20 15:36:50.077 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - No active profile set, falling back to default profiles: default
+2019-05-20 15:36:51.072 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9900 (http)
+2019-05-20 15:36:51.083 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9900"]
+2019-05-20 15:36:51.091 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-20 15:36:51.091 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-20 15:36:51.096 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-05-20 15:36:51.096 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-05-20 15:36:51.096 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-05-20 15:36:51.099 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-05-20 15:36:51.202 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-20 15:36:51.202 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 926 ms
+2019-05-20 15:36:51.570 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-20 15:36:51.805 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-05-20 15:36:51.806 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-05-20 15:36:51.806 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-05-20 15:36:51.806 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-05-20 15:36:51.910 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9900"]
+2019-05-20 15:36:51.928 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9900 (http) with context path ''
+2019-05-20 15:36:51.930 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - Started ResourceApplication in 2.179 seconds (JVM running for 2.911)
+2019-05-20 15:36:55.308 [http-nio-9900-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-20 15:36:55.309 [http-nio-9900-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-05-20 15:36:55.313 [http-nio-9900-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2019-05-20 15:36:55.342 [http-nio-9900-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-05-20 15:36:55.433 [http-nio-9900-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-05-20 15:55:30.447 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - Starting ResourceApplication on DESKTOP-G6Q6BPH with PID 656 (G:\WorkTest\pdioms_resource_rest\target\classes started by 18933 in G:\WorkTest\pdioms_resource_rest)
+2019-05-20 15:55:30.449 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - No active profile set, falling back to default profiles: default
+2019-05-20 15:55:32.003 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9900 (http)
+2019-05-20 15:55:32.017 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9900"]
+2019-05-20 15:55:32.028 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-20 15:55:32.028 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-20 15:55:32.033 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-05-20 15:55:32.034 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-05-20 15:55:32.034 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-05-20 15:55:32.057 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-05-20 15:55:32.171 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-20 15:55:32.171 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1280 ms
+2019-05-20 15:55:32.652 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-20 15:55:32.961 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-05-20 15:55:32.962 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-05-20 15:55:32.962 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-05-20 15:55:32.962 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-05-20 15:55:33.082 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9900"]
+2019-05-20 15:55:33.101 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9900 (http) with context path ''
+2019-05-20 15:55:33.103 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - Started ResourceApplication in 3.063 seconds (JVM running for 4.115)
+2019-05-20 16:02:10.578 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ufi.pdioms.resource.ResourceApplicationTests], using SpringBootContextLoader
+2019-05-20 16:02:10.583 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.ufi.pdioms.resource.ResourceApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-05-20 16:02:10.584 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.ufi.pdioms.resource.ResourceApplicationTests]: ResourceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-05-20 16:02:10.703 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ufi.pdioms.resource.ResourceApplication for test class com.ufi.pdioms.resource.ResourceApplicationTests
+2019-05-20 16:02:10.808 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-05-20 16:02:10.824 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@53ce1329, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@316bcf94, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6404f418, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3e11f9e9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1de5f259, org.springframework.test.context.transaction.TransactionalTestExecutionListener@729d991e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@31fa1761, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@957e06, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@32502377, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2c1b194a, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4dbb42b7, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@66f57048]
+2019-05-20 16:02:11.283 [main] INFO  com.ufi.pdioms.resource.ResourceApplicationTests - Starting ResourceApplicationTests on DESKTOP-G6Q6BPH with PID 21500 (started by 18933 in G:\WorkTest\pdioms_resource_rest)
+2019-05-20 16:02:11.284 [main] INFO  com.ufi.pdioms.resource.ResourceApplicationTests - No active profile set, falling back to default profiles: default
+2019-05-20 16:02:15.093 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-20 16:02:15.685 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-05-20 16:02:15.686 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-05-20 16:02:15.686 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-05-20 16:02:15.687 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-05-20 16:02:15.945 [main] INFO  com.ufi.pdioms.resource.ResourceApplicationTests - Started ResourceApplicationTests in 5.063 seconds (JVM running for 6.032)
+2019-05-20 16:02:16.350 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-20 16:21:47.920 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ufi.pdioms.resource.ResourceApplicationTests], using SpringBootContextLoader
+2019-05-20 16:21:47.926 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.ufi.pdioms.resource.ResourceApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-05-20 16:21:47.927 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.ufi.pdioms.resource.ResourceApplicationTests]: ResourceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-05-20 16:21:48.023 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ufi.pdioms.resource.ResourceApplication for test class com.ufi.pdioms.resource.ResourceApplicationTests
+2019-05-20 16:21:48.123 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-05-20 16:21:48.142 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@53ce1329, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@316bcf94, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6404f418, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3e11f9e9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1de5f259, org.springframework.test.context.transaction.TransactionalTestExecutionListener@729d991e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@31fa1761, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@957e06, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@32502377, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2c1b194a, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4dbb42b7, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@66f57048]
+2019-05-20 16:21:48.421 [main] INFO  com.ufi.pdioms.resource.ResourceApplicationTests - Starting ResourceApplicationTests on DESKTOP-G6Q6BPH with PID 21512 (started by 18933 in G:\WorkTest\pdioms_resource_rest)
+2019-05-20 16:21:48.422 [main] INFO  com.ufi.pdioms.resource.ResourceApplicationTests - No active profile set, falling back to default profiles: default
+2019-05-20 16:21:50.392 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-20 16:21:51.001 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-05-20 16:21:51.002 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-05-20 16:21:51.003 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-05-20 16:21:51.003 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-05-20 16:21:51.253 [main] INFO  com.ufi.pdioms.resource.ResourceApplicationTests - Started ResourceApplicationTests in 3.085 seconds (JVM running for 3.892)
+2019-05-20 16:21:51.444 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-20 16:22:01.678 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - Starting ResourceApplication on DESKTOP-G6Q6BPH with PID 15332 (G:\WorkTest\pdioms_resource_rest\target\classes started by 18933 in G:\WorkTest\pdioms_resource_rest)
+2019-05-20 16:22:01.679 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - No active profile set, falling back to default profiles: default
+2019-05-20 16:22:02.566 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9900 (http)
+2019-05-20 16:22:02.577 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9900"]
+2019-05-20 16:22:02.585 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-20 16:22:02.586 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-20 16:22:02.590 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-05-20 16:22:02.591 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-05-20 16:22:02.591 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-05-20 16:22:02.594 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-05-20 16:22:02.686 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-20 16:22:02.686 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 832 ms
+2019-05-20 16:22:03.053 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-20 16:22:03.281 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-05-20 16:22:03.281 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-05-20 16:22:03.281 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-05-20 16:22:03.282 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-05-20 16:22:03.378 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9900"]
+2019-05-20 16:22:03.394 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9900 (http) with context path ''
+2019-05-20 16:22:03.396 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - Started ResourceApplication in 2.022 seconds (JVM running for 2.795)
+2019-05-20 16:22:33.839 [http-nio-9900-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-20 16:22:33.840 [http-nio-9900-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-05-20 16:22:33.845 [http-nio-9900-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2019-05-20 16:22:33.877 [http-nio-9900-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-05-20 16:22:34.082 [http-nio-9900-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-05-20 17:45:00.807 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - Starting ResourceApplication on DESKTOP-G6Q6BPH with PID 9672 (G:\WorkTest\pdioms_resource_rest\target\classes started by 18933 in G:\WorkTest\pdioms_resource_rest)
+2019-05-20 17:45:00.827 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - No active profile set, falling back to default profiles: default
+2019-05-20 17:45:02.903 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9900 (http)
+2019-05-20 17:45:02.919 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9900"]
+2019-05-20 17:45:02.928 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-20 17:45:02.928 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-20 17:45:02.933 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-05-20 17:45:02.933 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-05-20 17:45:02.933 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-05-20 17:45:02.980 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-05-20 17:45:03.099 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-20 17:45:03.099 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1785 ms
+2019-05-20 17:45:03.622 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-20 17:45:04.045 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-05-20 17:45:04.045 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-05-20 17:45:04.046 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-05-20 17:45:04.046 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-05-20 17:45:04.201 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9900"]
+2019-05-20 17:45:04.218 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9900 (http) with context path ''
+2019-05-20 17:45:04.220 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - Started ResourceApplication in 4.289 seconds (JVM running for 6.511)
+2019-05-20 17:45:14.762 [http-nio-9900-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-20 17:45:14.762 [http-nio-9900-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-05-20 17:45:14.771 [http-nio-9900-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-05-20 17:45:14.835 [http-nio-9900-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-05-20 17:45:15.043 [http-nio-9900-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-05-20 18:07:55.392 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - Starting ResourceApplication on DESKTOP-G6Q6BPH with PID 9544 (G:\WorkTest\pdioms_resource_rest\target\classes started by 18933 in G:\WorkTest\pdioms_resource_rest)
+2019-05-20 18:07:55.395 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - No active profile set, falling back to default profiles: default
+2019-05-20 18:07:56.590 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9900 (http)
+2019-05-20 18:07:56.607 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9900"]
+2019-05-20 18:07:56.616 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-20 18:07:56.616 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-20 18:07:56.621 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-05-20 18:07:56.621 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-05-20 18:07:56.621 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-05-20 18:07:56.653 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-05-20 18:07:56.758 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-20 18:07:56.758 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1140 ms
+2019-05-20 18:07:57.335 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-20 18:07:57.697 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-05-20 18:07:57.698 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-05-20 18:07:57.698 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-05-20 18:07:57.698 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-05-20 18:07:57.896 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9900"]
+2019-05-20 18:07:57.914 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9900 (http) with context path ''
+2019-05-20 18:07:57.917 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - Started ResourceApplication in 2.882 seconds (JVM running for 3.627)
+2019-05-20 18:08:01.613 [http-nio-9900-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-20 18:08:01.613 [http-nio-9900-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-05-20 18:08:01.642 [http-nio-9900-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 29 ms
+2019-05-20 18:08:01.721 [http-nio-9900-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-05-20 18:08:01.939 [http-nio-9900-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-05-20 18:19:58.078 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - Starting ResourceApplication on DESKTOP-G6Q6BPH with PID 6392 (G:\WorkTest\pdioms_resource_rest\target\classes started by 18933 in G:\WorkTest\pdioms_resource_rest)
+2019-05-20 18:19:58.080 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - No active profile set, falling back to default profiles: default
+2019-05-20 18:19:59.061 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9900 (http)
+2019-05-20 18:19:59.073 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9900"]
+2019-05-20 18:19:59.081 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-20 18:19:59.082 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-20 18:19:59.086 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-05-20 18:19:59.086 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-05-20 18:19:59.086 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-05-20 18:19:59.089 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-05-20 18:19:59.182 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-20 18:19:59.182 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 912 ms
+2019-05-20 18:19:59.546 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-20 18:19:59.781 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-05-20 18:19:59.781 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-05-20 18:19:59.782 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-05-20 18:19:59.782 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-05-20 18:19:59.870 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9900"]
+2019-05-20 18:19:59.886 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9900 (http) with context path ''
+2019-05-20 18:19:59.888 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - Started ResourceApplication in 2.13 seconds (JVM running for 2.864)
+2019-05-20 18:20:02.361 [http-nio-9900-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-20 18:20:02.361 [http-nio-9900-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-05-20 18:20:02.366 [http-nio-9900-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2019-05-20 18:20:02.395 [http-nio-9900-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-05-20 18:20:03.046 [http-nio-9900-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-05-20 18:20:38.100 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - Starting ResourceApplication on DESKTOP-G6Q6BPH with PID 15084 (G:\WorkTest\pdioms_resource_rest\target\classes started by 18933 in G:\WorkTest\pdioms_resource_rest)
+2019-05-20 18:20:38.102 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - No active profile set, falling back to default profiles: default
+2019-05-20 18:20:39.067 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9900 (http)
+2019-05-20 18:20:39.078 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9900"]
+2019-05-20 18:20:39.086 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-20 18:20:39.086 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-20 18:20:39.091 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-05-20 18:20:39.091 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-05-20 18:20:39.091 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-05-20 18:20:39.094 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-05-20 18:20:39.186 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-20 18:20:39.186 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 900 ms
+2019-05-20 18:20:39.556 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-20 18:20:39.779 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-05-20 18:20:39.779 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-05-20 18:20:39.779 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-05-20 18:20:39.779 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-05-20 18:20:39.873 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9900"]
+2019-05-20 18:20:39.889 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9900 (http) with context path ''
+2019-05-20 18:20:39.891 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - Started ResourceApplication in 2.112 seconds (JVM running for 2.892)
+2019-05-20 18:21:31.227 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - Starting ResourceApplication on DESKTOP-G6Q6BPH with PID 13616 (G:\WorkTest\pdioms_resource_rest\target\classes started by 18933 in G:\WorkTest\pdioms_resource_rest)
+2019-05-20 18:21:31.229 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - No active profile set, falling back to default profiles: default
+2019-05-20 18:21:32.239 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9900 (http)
+2019-05-20 18:21:32.250 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9900"]
+2019-05-20 18:21:32.258 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-20 18:21:32.258 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-20 18:21:32.263 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-05-20 18:21:32.263 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-05-20 18:21:32.263 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-05-20 18:21:32.266 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-05-20 18:21:32.358 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-20 18:21:32.359 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 928 ms
+2019-05-20 18:21:32.729 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-20 18:21:32.967 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-05-20 18:21:32.968 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-05-20 18:21:32.968 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-05-20 18:21:32.968 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-05-20 18:21:33.060 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9900"]
+2019-05-20 18:21:33.076 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9900 (http) with context path ''
+2019-05-20 18:21:33.078 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - Started ResourceApplication in 2.167 seconds (JVM running for 2.892)
+2019-05-20 18:21:35.758 [http-nio-9900-exec-4] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-20 18:21:35.759 [http-nio-9900-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-05-20 18:21:35.763 [http-nio-9900-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2019-05-20 18:21:35.791 [http-nio-9900-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-05-20 18:21:35.872 [http-nio-9900-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-05-20 18:22:06.528 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - Starting ResourceApplication on DESKTOP-G6Q6BPH with PID 4808 (G:\WorkTest\pdioms_resource_rest\target\classes started by 18933 in G:\WorkTest\pdioms_resource_rest)
+2019-05-20 18:22:06.531 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - No active profile set, falling back to default profiles: default
+2019-05-20 18:22:07.476 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9900 (http)
+2019-05-20 18:22:07.486 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9900"]
+2019-05-20 18:22:07.495 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-20 18:22:07.495 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-20 18:22:07.500 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-05-20 18:22:07.500 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-05-20 18:22:07.500 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-05-20 18:22:07.503 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-05-20 18:22:07.599 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-20 18:22:07.600 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 866 ms
+2019-05-20 18:22:07.993 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-20 18:22:08.242 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-05-20 18:22:08.242 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-05-20 18:22:08.243 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-05-20 18:22:08.243 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-05-20 18:22:08.348 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9900"]
+2019-05-20 18:22:08.365 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9900 (http) with context path ''
+2019-05-20 18:22:08.368 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - Started ResourceApplication in 2.169 seconds (JVM running for 2.911)
+2019-05-20 18:22:13.313 [http-nio-9900-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-20 18:22:13.313 [http-nio-9900-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-05-20 18:22:13.318 [http-nio-9900-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2019-05-20 18:22:13.346 [http-nio-9900-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-05-20 18:22:13.427 [http-nio-9900-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-05-20 18:29:03.393 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - Starting ResourceApplication on DESKTOP-G6Q6BPH with PID 9588 (G:\WorkTest\pdioms_resource_rest\target\classes started by 18933 in G:\WorkTest\pdioms_resource_rest)
+2019-05-20 18:29:03.395 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - No active profile set, falling back to default profiles: default
+2019-05-20 18:29:04.338 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9900 (http)
+2019-05-20 18:29:04.349 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9900"]
+2019-05-20 18:29:04.358 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-20 18:29:04.358 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-20 18:29:04.363 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-05-20 18:29:04.363 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-05-20 18:29:04.363 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-05-20 18:29:04.366 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-05-20 18:29:04.461 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-20 18:29:04.461 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 866 ms
+2019-05-20 18:29:04.825 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-20 18:29:05.058 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-05-20 18:29:05.058 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-05-20 18:29:05.059 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-05-20 18:29:05.059 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-05-20 18:29:05.153 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9900"]
+2019-05-20 18:29:05.169 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9900 (http) with context path ''
+2019-05-20 18:29:05.171 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - Started ResourceApplication in 2.103 seconds (JVM running for 2.829)
+2019-05-20 18:29:09.346 [http-nio-9900-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-20 18:29:09.347 [http-nio-9900-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-05-20 18:29:09.351 [http-nio-9900-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2019-05-20 18:29:09.379 [http-nio-9900-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-05-20 18:29:09.462 [http-nio-9900-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-05-20 18:37:33.285 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - Starting ResourceApplication on DESKTOP-G6Q6BPH with PID 11284 (G:\WorkTest\pdioms_resource_rest\target\classes started by 18933 in G:\WorkTest\pdioms_resource_rest)
+2019-05-20 18:37:33.287 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - No active profile set, falling back to default profiles: default
+2019-05-20 18:37:34.238 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9900 (http)
+2019-05-20 18:37:34.249 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9900"]
+2019-05-20 18:37:34.257 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-20 18:37:34.257 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-20 18:37:34.262 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-05-20 18:37:34.262 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-05-20 18:37:34.262 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-05-20 18:37:34.265 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-05-20 18:37:34.357 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-20 18:37:34.357 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 859 ms
+2019-05-20 18:37:34.733 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-20 18:37:34.968 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-05-20 18:37:34.969 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-05-20 18:37:34.969 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-05-20 18:37:34.969 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-05-20 18:37:35.064 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9900"]
+2019-05-20 18:37:35.081 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9900 (http) with context path ''
+2019-05-20 18:37:35.083 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - Started ResourceApplication in 2.138 seconds (JVM running for 2.894)
+2019-05-20 18:37:37.836 [http-nio-9900-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-20 18:37:37.837 [http-nio-9900-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-05-20 18:37:37.841 [http-nio-9900-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2019-05-20 18:37:37.877 [http-nio-9900-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-05-20 18:37:37.974 [http-nio-9900-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-05-20 18:39:46.977 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - Starting ResourceApplication on DESKTOP-G6Q6BPH with PID 17156 (G:\WorkTest\pdioms_resource_rest\target\classes started by 18933 in G:\WorkTest\pdioms_resource_rest)
+2019-05-20 18:39:46.980 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - No active profile set, falling back to default profiles: default
+2019-05-20 18:39:48.038 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9900 (http)
+2019-05-20 18:39:48.050 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9900"]
+2019-05-20 18:39:48.059 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-20 18:39:48.059 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-20 18:39:48.064 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-05-20 18:39:48.064 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-05-20 18:39:48.064 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-05-20 18:39:48.067 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-05-20 18:39:48.163 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-20 18:39:48.163 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 945 ms
+2019-05-20 18:39:48.572 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-20 18:39:48.826 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-05-20 18:39:48.827 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-05-20 18:39:48.827 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-05-20 18:39:48.827 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-05-20 18:39:48.917 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9900"]
+2019-05-20 18:39:48.938 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9900 (http) with context path ''
+2019-05-20 18:39:48.940 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - Started ResourceApplication in 2.332 seconds (JVM running for 3.106)
+2019-05-20 18:39:51.641 [http-nio-9900-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-20 18:39:51.641 [http-nio-9900-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-05-20 18:39:51.645 [http-nio-9900-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2019-05-20 18:39:51.673 [http-nio-9900-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-05-20 18:39:51.754 [http-nio-9900-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-05-20 18:40:57.762 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - Starting ResourceApplication on DESKTOP-G6Q6BPH with PID 17020 (G:\WorkTest\pdioms_resource_rest\target\classes started by 18933 in G:\WorkTest\pdioms_resource_rest)
+2019-05-20 18:40:57.764 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - No active profile set, falling back to default profiles: default
+2019-05-20 18:40:58.710 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9900 (http)
+2019-05-20 18:40:58.721 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9900"]
+2019-05-20 18:40:58.729 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-20 18:40:58.729 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-20 18:40:58.734 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-05-20 18:40:58.734 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-05-20 18:40:58.734 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-05-20 18:40:58.737 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-05-20 18:40:58.828 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-20 18:40:58.829 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 879 ms
+2019-05-20 18:40:59.228 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-20 18:40:59.467 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-05-20 18:40:59.467 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-05-20 18:40:59.467 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-05-20 18:40:59.468 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-05-20 18:40:59.562 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9900"]
+2019-05-20 18:40:59.578 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9900 (http) with context path ''
+2019-05-20 18:40:59.580 [main] INFO  com.ufi.pdioms.resource.ResourceApplication - Started ResourceApplication in 2.132 seconds (JVM running for 2.878)
+2019-05-20 18:41:01.638 [http-nio-9900-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-20 18:41:01.639 [http-nio-9900-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-05-20 18:41:01.643 [http-nio-9900-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2019-05-20 18:41:01.671 [http-nio-9900-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-05-20 18:41:01.752 [http-nio-9900-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
