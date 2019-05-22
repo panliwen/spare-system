@@ -19,8 +19,11 @@ public enum ErrorCode
 		DEVICE_MODEL_NOT_EXIST("30201", "该型号不存在"),
 		DEVICE_MODEL_NAME_HAS_BEEN_USED("30202", "该型号名称已被使用"),
 
-		DEVICE_NOT_EXIST("40101", "该设备不存在"),
-		DEVICE_NUMBER_EXIST("40102", "该设备编号已存在"),
+		DEVICE_NOT_EXIST("30301", "该设备不存在"),
+		DEVICE_NUMBER_EXIST("30302", "该设备编号已存在"),
+
+		NAME_AND_EXIST("30401","名称已存在！请更换！"),
+		NAME_NOT_EXIST("30402","名称不存在！请更换！")
 
 
 	;

@@ -1,9 +1,9 @@
-package com.ufi.pdioms.resource.base.impl;
+package com.ufi.pdioms.resource.common.model.impl;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.ufi.pdioms.resource.base.BaseService;
-import com.ufi.pdioms.resource.base.PageResult;
+import com.ufi.pdioms.resource.common.model.BaseService;
+import com.ufi.pdioms.resource.common.model.PageResult;
 import org.apache.ibatis.session.RowBounds;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

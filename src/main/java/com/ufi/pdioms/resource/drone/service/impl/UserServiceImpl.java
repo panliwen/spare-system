@@ -2,7 +2,7 @@ package com.ufi.pdioms.resource.drone.service.impl;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.ufi.pdioms.resource.base.PageResult;
+import com.ufi.pdioms.resource.common.model.PageResult;
 import com.ufi.pdioms.resource.drone.dao.UserDao;
 import com.ufi.pdioms.resource.drone.model.User;
 import com.ufi.pdioms.resource.drone.service.UserService;

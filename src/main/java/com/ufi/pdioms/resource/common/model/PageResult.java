@@ -1,4 +1,4 @@
-package com.ufi.pdioms.resource.base;
+package com.ufi.pdioms.resource.common.model;
 
 import java.io.Serializable;
 import java.util.List;
@@ -43,7 +43,7 @@ public class PageResult implements Serializable {
         this.totalPage = totalPage;
     }
 
-    public PageResult(long total, List<?> data, long totalPage,long pageSize,long current) {
+    public PageResult(long total, List<?> data, long totalPage, long pageSize, long current) {
         this.data = data;
         this.total = total;
         this.totalPage=totalPage;

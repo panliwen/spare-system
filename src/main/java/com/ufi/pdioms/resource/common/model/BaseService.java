@@ -1,4 +1,4 @@
-package com.ufi.pdioms.resource.base;
+package com.ufi.pdioms.resource.common.model;
 
 import org.apache.ibatis.session.RowBounds;
 
